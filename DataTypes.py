@@ -42,3 +42,11 @@ print(a,b)
 
 
 #An object is hashable if it has a hash value which never changes during its lifetime
+
+a = 'hello'
+list(a)
+print(list(a))
+set(a)
+print(set(a))
+tuple(a)
+print(tuple(a))
