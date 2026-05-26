@@ -1,4 +1,33 @@
 # ********* if / loop / break / continue all are part of "Control Flow" *********
+#Printing even number 1 to 10 in output
+k = 1
+while(k < 11):
+    if k % 2 == 0:
+        print (k)
+    k += 1
+
+#Read 5 number from the input and print the number of even numbers
+i = 0
+count = 0
+while (i < 5):
+    num= int(input("Enter a number:"))
+    if num % 2 == 0:
+        count += 1
+    i += 1
+print("The number of even numbers:", count)
+#Divide two numbers from the input, the first by the second, using the subtraction operator instead of the division operator, and display the quotient and remainder in the output
+t = int(input("Enter dividend:"))
+v = int(input("Enter divisor:"))
+if v == 0:
+    print("Error: cannot divide by zero")
+else:
+    quotient = 0
+    while t>= v:
+        t-=v
+        quotient +=1
+    remainder = t
+    print("quotient is ", quotient)
+    print("remainder is", remainder)
 # A while loop that stops when i reaches 4
 print("A while loop that stops when i reaches 4")
 i = 0
