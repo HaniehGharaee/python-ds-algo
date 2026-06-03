@@ -1,10 +1,8 @@
 # ********* if / loop / break / continue all are part of "Control Flow" *********
 #Printing even number 1 to 10 in output
-k = 1
-while(k < 11):
+for k in range(1,11): #you can range(start, stop, step) -> for k in range(2, 11, 2):
     if k % 2 == 0:
         print (k)
-    k += 1
 
 #Read 5 number from the input and print the number of even numbers
 i = 0

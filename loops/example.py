@@ -1,27 +1,27 @@
 #Display numbers 1 to 5 in the output
-k = 0
-while(k < 5):
-    k = k + 1
-    print(k)
+# k = 0
+# while(k < 5):
+#     k = k + 1
+#     print(k)
 for k in range(1 ,6):
     print(k)
 #Receive a number from input and display from 1 to the received number in output
-number = int(input("Enter a number for while:"))
-i=0
-while(i < number): # 5 < 5 is False
-    i += 1
-    print("Display Numbers:",i)
+# number = int(input("Enter a number for while:"))
+# i=0
+# while(i < number): # 5 < 5 is False
+#     i += 1
+#     print("Display Numbers:",i)
 number = int(input("Enter a number for in:"))
 for i in range(1, number+1):
     print(i)
 #Receives a number from the input and display the sum of the numbers 1 to that number itself in the output
-num = int(input("Enter a number for while:"))
-i = 1 # or i = 0
-sum = 0
-while(i <= num):
-    sum = sum + i
-    i += 1
-print ("Sum of result the numbers", sum)
+# num = int(input("Enter a number for while:"))
+# i = 1 # or i = 0
+# sum = 0
+# while(i <= num):
+#     sum = sum + i
+#     i += 1
+# print ("Sum of result the numbers", sum)
 num = int(input("Enter a number for in:"))
 total = 0
 for i in range(1, num+1):
