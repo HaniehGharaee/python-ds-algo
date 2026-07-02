@@ -13,6 +13,19 @@ while (i < 5):
         count += 1
     i += 1
 print("The number of even numbers:", count)
+#Receive m numbers from the input and count of even and odd numbers
+evenCount= 0
+oddCount = 0
+m = int(input("How many numbers?"))
+for _ in range(m):
+    num = int(input("Enter a number:"))
+    if num % 2 == 0:
+        evenCount += 1
+    else:
+        oddCount +=1
+print("count of even number is:", evenCount)
+print("count of odd number is:", oddCount)      
+
 #Divide two numbers from the input, the first by the second, using the subtraction operator instead of the division operator, and display the quotient and remainder in the output
 t = int(input("Enter dividend:"))
 v = int(input("Enter divisor:"))
@@ -26,6 +39,14 @@ else:
     remainder = t
     print("quotient is ", quotient)
     print("remainder is", remainder)
+
+#Read a number from the input and display its divisors in the output.
+p = int(input("Enter a number as p:"))
+i = 1
+while (i <= p):
+    if p % i == 0:
+        print (i)
+    i = i+ 1
 # A while loop that stops when i reaches 4
 print("A while loop that stops when i reaches 4")
 i = 0

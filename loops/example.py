@@ -53,8 +53,17 @@ for _ in range(m):
 average = total / m
 print ("Sum of result the numbers:", total)
 print ("Average of result the numbers:", average)
+#Takes 2 variables from the input and raises the first to the power of the second.
+# m = int(input("Enter a number as m:"))
+# n = int(input("Enter a number as n:"))
+# p = 1
+# i = 1
+# while (i <= n ):
+#     p = p*m
+#     i = i+ 1
+# print ("Result of p", p)
 #Multiply two numbers from the first input by the second, using the addition operator instead of the multiplication operator
-r = int(input("Enter a number as r:"))
+r = int(input("Enter a number as r:")) 
 s = int(input("Enter a number as s:"))
 result = 0
 for _ in range(s):
