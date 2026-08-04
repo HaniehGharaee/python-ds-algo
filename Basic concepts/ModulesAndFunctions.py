@@ -31,3 +31,19 @@ def calculate_age_in_months(year, month, day):
         months -= 1
         return months
     
+year = int(input("Enter your birth year:"))
+month = int(input("Enter your birth month:"))
+day = int(input("Enter your birth day:"))
+age_in_months = calculate_age_in_months(year, month, day)
+print("You have lived", age_in_months, "months")
+
+def calculate_absolute_product(a , b):
+    return abs(a) * abs(b)
+    # abs_First_Number = abs(a)
+    # abs_Second_Number = abs(b)
+    # result = abs_First_Number * abs_Second_Number
+    # return result
+a = int(input("Enter first number:"))
+b = int(input("Enter second number:"))
+print(calculate_absolute_product(a , b))
+    
