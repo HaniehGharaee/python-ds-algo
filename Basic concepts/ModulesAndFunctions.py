@@ -46,4 +46,63 @@ def calculate_absolute_product(a , b):
 a = int(input("Enter first number:"))
 b = int(input("Enter second number:"))
 print(calculate_absolute_product(a , b))
+
+def calculate_absolute_product(a, b):
+    return abs(a) * abs(b)
+
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print(calculate_absolute_product(a, b))
+
+def calculate_net_salary(s):
+    tax = s * 0.1
+    insurance = s * 0.17
+    net_salary = s - tax - insurance
+    return tax, insurance, net_salary
+
+s = int(input("Enter your salary: "))
+tax, insurance, net_salary = calculate_net_salary(s)
+print ("Tax:", tax)
+print("insurance", insurance)
+print("net_salary", net_salary)
+
+def format_two_names_with_space (name1 , name2):
+    first_message = "name: " + name1
+    measure_name = len(first_message)
+    if measure_name <= 30:
+        calculate_space = 30 - measure_name
+        second_message = " " * calculate_space  + "name: " + name2
+        final_message = first_message + second_message 
+        return final_message
+    else: 
+        return "Name is too long"
+          
+name1 = input("Enter your name1: ")
+name2 = input("Enter your name2: ")
+final_message = format_two_names_with_space(name1 , name2)
+print(final_message)
+
+def format_list_names_with_space (names):
+    all_message = ""
+    for i in range(0, len(names), 2):
+        first_message = "name: " + names[i]
+        if i+1 < len(names):
+            second_message = "name: " + names[i+1]
+            measure_name = len(first_message)
+            if measure_name <= 30:
+                calculate_space = 30 - measure_name
+                line = first_message + (" " * calculate_space) + second_message 
+            else: 
+                return "Name is too long"
+        else: 
+            line = first_message
+        all_message += line + "\n"
+    return all_message 
+            
+names = ["hanieh", "maryam", "ali", "reza", "sara"]
+all_message = format_list_names_with_space(names)
+print(all_message)
+
     
