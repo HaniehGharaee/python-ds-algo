@@ -37,7 +37,7 @@ num1 , num2 =map(int, input("Enter two numbers separated by space: ").split())
 print("Sum", num1 + num2)
 # Question10
 a = int(input("Enter a for calculation:"))
-calculation = (a*a*a)/(a*a+a+1)
+calculation = (a**3)/(a*2+a+1)
 print("(a*a*a)/(a*a+a+1):", calculation)
 # Question 10-1
 a = int(input("Enter a for calculation with math.pow:"))
