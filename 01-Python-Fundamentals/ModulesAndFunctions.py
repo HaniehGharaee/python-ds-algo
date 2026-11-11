@@ -1,28 +1,12 @@
 from datetime import date
-import math
-calculate = math.sqrt(16)
-print(calculate)
-
-def sayHello():
-    """This is the module docstring."""
-    return 'Hello World'
-print(sayHello())
-
-def say_hello():
-    print("Hello!")
-say_hello()
+import math,jdatetime
 
 def sum_of_numbers(a, b):
     result = a + b
     return result
 print(sum_of_numbers(20, 30))
 
-def result_Operation(a):
-    print("enter a: ", a)
-    result = (a ** 3) / (a ** 2 + a + 1)
-    return result
-print(result_Operation(3))
-
+# Question 14
 def calculate_age_in_months(year, month, day):
     birth_date =  date(year, month, day)
     today = date.today()
@@ -37,6 +21,7 @@ day = int(input("Enter your birth day:"))
 age_in_months = calculate_age_in_months(year, month, day)
 print("You have lived", age_in_months, "months")
 
+# Question 15
 def calculate_absolute_product(a , b):
     return abs(a) * abs(b)
     # abs_First_Number = abs(a)
@@ -47,14 +32,14 @@ a = int(input("Enter first number:"))
 b = int(input("Enter second number:"))
 print(calculate_absolute_product(a , b))
 
-def calculate_absolute_product(a, b):
-    return abs(a) * abs(b)
+# Question 16
+def convert_shamsi_year_to_gregorian(shamsi_year) :
+    gregorian_year = shamsi_year + 621
+    return gregorian_year
 
-
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
-
-print(calculate_absolute_product(a, b))
+shamsi_year = int(input("Enter a Shamsi year:"))
+gregorian_year = convert_shamsi_year_to_gregorian(shamsi_year)
+print("The corresponding Gregorian year is:", gregorian_year)
 
 def calculate_net_salary(s):
     tax = s * 0.1
@@ -106,4 +91,5 @@ all_message = format_list_names_with_space(names)
 print(all_message)
 
 
-    
+calculate = math.sqrt(16)
+print(calculate)
