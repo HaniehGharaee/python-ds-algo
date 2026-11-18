@@ -4,25 +4,22 @@ A structured learning journey through Python fundamentals, problem solving, algo
 
 ## About
 
-This repository is dedicated to learning Python from the fundamentals and gradually developing problem-solving and algorithmic thinking skills.
+This repository documents my journey of learning Python, strengthening problem-solving skills, and developing a deeper understanding of fundamental computer science concepts.
 
-It contains Python concepts, practical exercises, and solutions to programming problems from different learning resources, including **GeeksforGeeks** and programming books.
+It contains Python concepts, practical exercises, and programming problem solutions from different learning resources, including GeeksforGeeks and programming books.
 
-The goal is not only to learn Python syntax but also to understand how to approach problems, develop efficient solutions, and build a strong foundation in computer science concepts.
+The main goal is to develop strong programming fundamentals, improve logical and algorithmic thinking, and learn to write efficient, clean, and maintainable Python code.
 
 ## Learning Roadmap
 
-The repository is organized into the following learning areas:
+The repository is organized into four main learning areas:
 
 | # | Topic | Description |
 |---|---|---|
-| 01 | Python Fundamentals | Variables, data types, collections, type conversion, input/output, functions, and modules |
-| 02 | Conditionals | Conditional statements and decision-making |
-| 03 | Loops | Iteration and repetition structures |
-| 04 | Built-in Modules | Working with Python's built-in modules, such as `datetime`, `math`, and `random` |
-| 05 | Problem Solving | Practical exercises and problem-solving techniques |
-| 06 | Algorithms | Algorithm implementation and analysis |
-| 07 | Data Structures | Understanding and implementing fundamental data structures |
+| 01 | Python Fundamentals | Core Python concepts, syntax, data types, functions, modules, and practical exercises |
+| 02 | Problem Solving | Practical programming challenges and techniques for analyzing and solving problems |
+| 03 | Algorithms | Implementation and analysis of fundamental algorithms, including time and space complexity |
+| 04 | Data Structures | Understanding, implementing, and exploring fundamental data structures |
 
 ## Repository Structure
 
@@ -30,35 +27,27 @@ The repository is organized into the following learning areas:
 python-ds-algo/
 │
 ├── 01-Python-Fundamentals/
-│   ├── variables.py
-│   ├── data_types.py
-│   ├── collection_types.py
-│   ├── type_conversion.py
-│   ├── input_output.py
-│   ├── functions.py
-│   ├── modules.py
-│   └── Practice/
-│       ├── geeksforgeeks_practice.py
-│       └── book_problem_solving.py
+│   │
+│   ├── 01-Book-Practice/
+│   │   ├── 01-questions-001-015.py
+│   │   ├── 02-questions-016-030.py
+│   │   └── ...
+│   │
+│   ├── 02-GeeksforGeeks/
+│   │   ├── basics.py
+│   │   └── problem_solving.py
+│   │
+│   └── 03-Concept-Practice/
+│       ├── variables.py
+│       ├── data_types.py
+│       ├── collections.py
+│       └── functions.py
 │
-├── 02-Conditionals/
-│   ├── conditionals.py
-│   └── Practice/
+├── 02-Problem-Solving/
 │
-├── 03-Loops/
-│   ├── loops.py
-│   └── Practice/
+├── 03-Algorithms/
 │
-├── 04-Built-in-Modules/
-│   ├── datetime/
-│   ├── math/
-│   └── random/
-│
-├── 05-Problem-Solving/
-│
-├── 06-Algorithms/
-│
-├── 07-Data-Structures/
+├── 04-Data-Structures/
 │
 └── README.md
 ```
@@ -67,17 +56,16 @@ python-ds-algo/
 
 The exercises and solutions in this repository are based on different learning resources:
 
-- **[GeeksforGeeks](https://www.geeksforgeeks.org/):** Programming exercises and practical coding challenges.
-- **Programming Books:** Exercises and problem-solving practices based on programming books.
-
-Each resource is organized separately to keep the learning process structured and make the origin of exercises clear.
+- **GeeksforGeeks:** Programming exercises and practical coding challenges.
+- **Programming Books:** Selected exercises used for practicing programming concepts and problem-solving skills.
+- **Personal Practice:** Additional examples and exercises created to understand and reinforce Python concepts.
 
 ## Learning Goals
 
 - Build a solid foundation in Python programming.
 - Improve logical thinking and problem-solving skills.
-- Understand and implement fundamental algorithms.
-- Learn common data structures and their applications.
+- Develop algorithmic thinking and understand common algorithms.
+- Learn fundamental data structures and their applications.
 - Analyze time and space complexity.
 - Write clean, readable, and maintainable Python code.
 
@@ -85,7 +73,7 @@ Each resource is organized separately to keep the learning process structured an
 
 This repository is continuously evolving as new concepts, exercises, algorithms, and data structures are explored and implemented.
 
-The learning roadmap will be expanded progressively, from Python fundamentals to more advanced problem-solving and computer science topics.
+The learning roadmap will expand progressively, from Python fundamentals to more advanced problem-solving and computer science topics.
 
 ---
 
